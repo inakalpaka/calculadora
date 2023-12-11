@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+    border: 5px solid red;
+}
+
+  button {
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid blue;
+    background-color: #f5f5f5;
+  }
+.igual {
+    grid-column: 3 / 5;
+    grid-row: 5;
+}
+.salida {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    border: 5px solid green;
+}
